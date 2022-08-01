@@ -1,0 +1,419 @@
+/* @media screen {
+    sm: 540px,
+    md: 720px,
+    lg: 960px,
+    xl: 1140px,
+    xxl: 1320px
+} */
+
+/* html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  } */
+    
+#ust_bolge{
+  width:100%;
+  height:800px;
+  background-image: url(./images/08-BOSPHOROUS-VİEW.png);
+  margin:0px auto;
+  background-size: 100% 100%;  /* ekrana tam sıgması için */
+}
+
+
+#ust_bolge > #sol_taraf_div > #sol_taraf > h3{
+  font-family:tahoma;
+  text-align: center;
+  margin-top:10px;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size:60px;
+}
+
+#ust_bolge > #sol_taraf_div > #sol_taraf2 > h3{
+  font-family:tahoma;
+  text-align: center;
+  margin-top:10px;
+  font-weight: 900;
+  text-transform: capitalize;
+  font-size:60px;
+}
+ 
+
+#ust_bolge > #sol_taraf_div > #sol_taraf{
+  width:100%;
+  height:90px;
+  background-color: #fff;
+  float:left;
+  margin-top:100px;
+  border-radius: 0px 0px 64px 0px;
+}
+
+#ust_bolge > #sol_taraf_div{
+  width:50%;
+  height:300px;
+  float:left;
+  margin-top:80px;
+ 
+}
+
+#cizgi{
+  width:100%;
+  height:30px;
+  background-color: #39454B;
+}
+
+#ust_bolge > #sol_taraf_div > #sol_taraf2{
+  width:90%;
+  height:90px;
+  background-color: #fff;
+  float:left;
+  margin-top:10px;
+  border-radius: 64px 0px 0px 0px;
+  margin-left: 85px;
+}
+ 
+#ust_bolge > #logo_yazi{
+    width:100%;
+    height:200px;
+    float:left;
+}
+
+#ust_bolge > #logo_yazi > img{
+  float:left;
+  margin-left:20px;
+  margin-top:60px;
+  
+}
+
+#ust_bolge > #logo_yazi > img.resim_2{
+  float:left;
+  margin-top:-70px;    /* negative margin */
+  line-height:0;
+  width:85%;
+}
+
+
+#body{
+  width:1200px;
+  height:500px;
+  margin:0 auto;
+ 
+}
+
+
+#body > #box{
+  width:100%;
+  height:300px;
+  float:left;
+  margin-top:40px;
+   
+}
+
+
+
+#body > #box > #bilgi_resim{
+  width:50%;
+  height:300px;
+  float:left;
+  margin-top:10px;
+}
+
+#body > #box > #bilgi_resim > #baslik{
+  width:100%;
+  height:100px;
+  float:left;
+  text-transform: capitalize;
+}
+
+#body > #box > #bilgi_resim > h3{
+  font-size: 15px;
+}
+
+
+#body > #box > #bilgi_resim > img{
+  width:95%;
+  margin-left:20px;
+  float:left;
+}
+
+/* BODY BOX 2 BURDAN BASLIYOR */
+#body > #box2{
+  width:100%;
+  height:600px;
+  float:left;
+  margin-top:30px;
+  margin-bottom: -320px;
+   
+}
+
+#body > #box2 > #bilgi_resim2{
+  width:50%;
+  height:600px;
+  float:left;
+  margin-top:10px;
+}
+
+#body > #box2 > #bilgi_resim2 > #baslik2{
+  width:100%;
+  height:100px;
+  float:right;
+  text-transform: capitalize;
+}
+
+/* #body > #box2 > #bilgi_resim2 > h2{
+  float: left;
+  text-align: end;
+} */
+
+#body > #box2 > #bilgi_resim2 > h3{
+  font-size: 15px;
+}
+
+#body > #box2 > #bilgi_resim2 >img > #torun{
+  width: 20%;
+  margin-left:20px;
+  float:left; 
+}
+#body > #box2 > #bilgi_resim2 >img > #torun-square{
+  width:20%;
+  float:right;
+}
+
+/* BODY BOX 2 BURDA BITIYOR */
+
+/* body box 3 burda başlıyor */
+#body > #box3{
+  width:100%;
+  height:300px;
+  float:left;
+  margin-top:150px;
+   
+}
+
+
+
+#body > #box3 > #bilgi_resim3{
+  width:50%;
+  height:300px;
+  float:left;
+  margin-top:10px;
+  background-color: #F4F4F4;
+}
+
+#body > #box3 > #bilgi_resim3 > #baslik3{
+  width:100%;
+  height:100px;
+  float:left;
+  text-transform: capitalize;
+  padding-left: 30%;
+}
+
+#body > #box3> #bilgi_resim3 > h3{
+  font-size: 13px;
+  padding-left: 30%;
+  
+}
+
+
+#body > #box3 > #bilgi_resim3 > img{
+  width:100%;
+  height: 100%;
+  margin-left:20px;
+  float:left;
+}
+/* body box 3 burda bitiyor */
+
+
+#cizgi_2{
+  width:100%;
+  height:80px;
+  background-color: #39454B;
+  float:left;
+  margin-top:50px;
+}
+
+
+#cizgi_2 > img{
+  width:50%;
+  margin-left:25%;
+  float:left;
+  margin-top:10px;
+}
+
+/* body box 4 burda başlıyor */
+#body > #box4{
+  width:100%;
+  height:300px;
+  float:left;
+  margin-top:40px;
+}
+
+#body > #box4 > #crousel_baslık{
+  width: 100%;
+  height: 100px;
+  float: left;
+  margin-top: 40px;
+}
+#body > #box4 > #crousel_baslık > h1{
+  margin-left: 45%;
+
+}
+#body > #box4 > #crousel_baslık > #button{
+  margin-left: 38%;
+}
+#body > #box4 > #crousel_baslık > #button>button{
+  background-color: white;
+  border: none;
+  font-weight: bold;
+}
+
+#body > #box4 > #crousel_baslık > #button>button:active{
+  background-color:#39454B;
+}
+#body > #box4 > #crousel_baslık > #button>button:hover{
+  background-color:#39454B;
+}
+/* body box 4 burda bitiyor */
+
+.d-block{
+  margin-left: 25%;
+}
+
+/* body box 5 burada başlıyor */
+#body > #box5{
+  width:100%;
+  height:364px;
+  float:left;
+  margin-top:300px;
+  background-color: #F4F4F4;
+}
+
+#body > #box5> #harita-contact{
+  width:50%;
+  height:300px;
+  float:left;
+  margin-top:10px;
+}
+#body > #box5> #harita-contact > #contact{
+  width:100%;
+  height:100px;
+  float:left;
+  text-transform: capitalize;
+}
+
+#body > #box5 > #harita-contact > #mapouter{
+  float:left;
+  margin-top: -10px;
+}
+
+#body > #box5 > #harita-contact > img{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+#body > #box5 > #harita-contact > #contact{
+  margin-left: 25px;
+  margin-top: 50px;
+}
+
+#mobile-form{
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  color: #333;
+  font-family: Lato, sans-serif;
+  margin: 0;
+  border: 0;
+  vertical-align: baseline;
+  line-height: 15px;
+  text-align: center;
+  font-size: 12px;
+  border-radius: 19px;
+  position: fixed;
+  box-sizing: border-box;
+  background-color: #3e4244;
+  z-index: 999999999999;
+  height: auto;
+  display: table;
+  top: 50%;
+  transition: all .6s cubic-bezier(.42,0,.07,.99);
+  transform: translateY(-50%);
+  padding: 20px;
+  width: 19%;
+  right: 0;
+}
+
+.form-title{
+  color: white;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.form-text{
+  background-color: #3e4244;
+  border:navajowhite;
+  margin-bottom: 10px;
+  color: white;
+  list-style: none;
+  text-decoration: underline;
+  
+}
+.form-textarea{
+  background-color: #3e4244;
+  border: navajowhite;
+  text-decoration: underline;
+  color: white;
+  padding-bottom: 5px;
+}
+.ul
+{
+  list-style: none;
+}
+.radio-list{
+  list-style: none;
+}
+
+#formgonder{
+  margin-top: 10px;
+  border: none;
+  border-radius: 15px 15px 15px 15px;
+}
+
+
+.resim2{
+  margin-top: -180px;
+  margin-left: 160px;
+}
+/* Carousel CSS  */
+
+/* coursel css end here */
+/* body box 5 burada bitiyor */
+/* 
+
+
+#body > #box > #bilgi_resim > h3{
+  font-size: 15px;
+}
+
+
+#body > #box > #bilgi_resim > img{
+  width:95%;
+  margin-left:20px;
+  float:left;
+} */
